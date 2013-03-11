@@ -1,6 +1,6 @@
 say "One moment while we connect your call"
 transfer '14075555555', {
-    :playvalue => "http://hosting.tropo.com/46256/www/audio/bookofthemonkey.mp3",
+    :playvalue => "http://hosting.tropo.com/someAccountID/www/audio/ringAudioFile.wav",
     :playTones => true,
     :callerID => "14075555555",
     :onConnect => lambda { |event| 
